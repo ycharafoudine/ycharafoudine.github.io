@@ -1,0 +1,26 @@
+h1 {
+	color : #C40000;
+	font-family: Calibri;
+	
+}
+
+h2 {
+	color : #E09100;
+	font-family: 'Josefin Sans';
+	font-variant: small-caps;
+
+}
+
+h3 {
+	color : #D8E000;
+	font-family: 'Josefin Sans';	
+	
+}
+
+.sous-titres {
+	font-weight : bold;
+}
+
+.notions {
+	font-style : italic;
+}

@@ -1,52 +1,87 @@
-Glossaire
-
-JAVASCRIPT
-Définition : Langage de programmation de scripts principalement employé dans les pages web interactives
-
-Tutoriels :
-http://lodash.com/docs
-https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_r%C3%A9introduction_%C3%A0_JavaScript
-http://momentjs.com/docs/
-
-Installation : 
-
-ANGULAR JS (https://angularjs.org/) : 
- Définition : Framework JavaScript libre et open-source développé par Google. Angular permet, grâce à ses balises, d’utiliser une sorte d’html étendu et d’implémenter le patron MVC.
-
-Tutoriels :
-http://blog.zenika.com/2013/05/22/angularjs-getting-started/
-http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/
-https://github.com/toddmotto/angularjs-styleguide
-https://github.com/a8m/angular-filter
-
-Notions importantes :
-Contrôleur : attaché à la vue par la directive ng-controller, il permet de gérer une zone géographique de la page web.
-Directive : outil permettant d’étendre les capacités du langage HTML. Les directives fournies avec le framework se présentent sous la forme ng-something
-Service : outil permettant de partager du code dans toute l’application grâce à l’injection de dépendance. Exemple : $scope, $http, $timeout
-Promises :
-Factory :
-$http : 
-data : retourne les données récupérées dans le fichier appelé. 
-status : retourne le code status de l'appel  (200 à 299 : success, autre : error)
-headers : retourne les informations sur l'en-tête récupéré. 
-config : retourne un objet comprennant l'ensemble des informations de configuration de la demande. 
-
-Installation : fichier angular.js
+<!DOCTYPE html>
 
 
-JQUERY (http://jquery.com/) :
-Définition : Bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l’écriture de scripts dans le code HTML des pages Web
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand" rel="stylesheet"><link rel="stylesheet" href="style.css">
+      
+        <title>Glossaire</title>
+
+    </head>
+    <body>
+
+<h1>GLOSSAIRE</h1>
+
+<h2>Programmation</h2>
+
+<h3>JAVASCRIPT</h3>
+<p><span class="sous-titres">Définition :</span> Langage de programmation de scripts principalement employé dans les pages web interactives
+<br/>
+<span class="sous-titres">Tutoriels :</span>
+<ul>
+	<li><a href = "http://lodash.com/docs">http://lodash.com/docs</a></li>
+	<li><a href = "https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_r%C3%A9introduction_%C3%A0_JavaScripts">
+		https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_r%C3%A9introduction_%C3%A0_JavaScript
+	</a>
+	</li>
+	<li><a href="http://momentjs.com/docs/">http://momentjs.com/docs/</a></li>
+</ul>
+
+<span class="sous-titres">Installation : </span>
+
+</p>
+
+<a href="https://angularjs.org/"><h3>ANGULAR JS </h3></a>
+<p> <span class="sous-titres">Définition :</span> Framework JavaScript libre et open-source développé par Google. Angular permet, grâce à ses balises, d’utiliser une sorte d’html étendu et d’implémenter le patron MVC.
+<br/>
+<span class="sous-titres">Tutoriels :</span>
+<ul>
+	<li><a href = "http://blog.zenika.com/2013/05/22/angularjs-getting-started/">http://blog.zenika.com/2013/05/22/angularjs-getting-started/</a></li>
+	<li><a href = "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/">http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/</a></li>
+	<li><a href="https://github.com/toddmotto/angularjs-styleguide">https://github.com/toddmotto/angularjs-styleguide</a></li>
+	<li><a href="https://github.com/a8m/angular-filter">https://github.com/a8m/angular-filter</a></li>
+</ul>
+
+<span class="sous-titres">Notions importantes :</span>
+<ul>
+	<li><span class="notions">Contrôleur :</span> attaché à la vue par la directive ng-controller, il permet de gérer une zone géographique de la page web.</li>
+	<li><span class="notions">Directive :</span> outil permettant d’étendre les capacités du langage HTML. Les directives fournies avec le framework se présentent sous la forme ng-something</li>
+	<li><span class="notions">Service :</span> outil permettant de partager du code dans toute l’application grâce à l’injection de dépendance. Exemple : $scope, $http, $timeout</li>
+		<ul>
+		<li><span class="notions">$http :</span></li>
+			<ul>
+				<li><span class="notions">data :</span> retourne les données récupérées dans le fichier appelé. </li>
+				<li><span class="notions">status :</span> retourne le code status de l'appel  (200 à 299 : success, autre : error)</li>
+				<li><span class="notions">headers :</span> retourne les informations sur l'en-tête récupéré.</li>
+				<li><span class="notions">config :</span> retourne un objet comprennant l'ensemble des informations de configuration de la demande. </li>
+			</ul>
+		</ul>
+	<li><span class="notions">Promises :</span></li>
+	<li><span class="notions">Factory :</span></li>
+	<li></li>
+</ul>
+
+<span class="sous-titres">Installation :</span> fichier angular.js
+</p>
+
+<a href="http://jquery.com/"><h3>JQUERY</h3></a>
+<span class="sous-titres">Définition :</span> Bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l’écriture de scripts dans le code HTML des pages Web
 
 Tutoriels :
 http://geekos.fr/02/2012/jquery-astuces-et-conseils-pour-ameliorer-les-performances/
 http://learn.jquery.com/performance/
 http://lab.abhinayrathore.com/jquery-standards/
 
-Notions importantes
+<span class="sous-titres">Notions importantes :</span>
 
 
 CORDOVA (https://cordova.apache.org/docs/en/latest/) :
- Définition : Framework open-source permettant de développer des applications hybrides (Web, Android, iOS, Windows Phone) grâce au langages HTML, CSS et JavaScript. Cordova était anciennement appelé Phonegap.
+<span class="sous-titres">Définition :</span> : Framework open-source permettant de développer des applications hybrides (Web, Android, iOS, Windows Phone) grâce au langages HTML, CSS et JavaScript. Cordova était anciennement appelé Phonegap.
 
 Installation / Commandes importantes : 
 npm install –g cordova
@@ -56,78 +91,78 @@ cordova build
 
 
 IONIC (http://ionicframework.com/) :
- Définition : Framework pour développement hybride (Web, Android, iOS, Windows Phone)
+ <span class="sous-titres">Définition :</span> : Framework pour développement hybride (Web, Android, iOS, Windows Phone)
 
 Installation : npm install –g ionic
 
 
 CSS3 : 
- Définition : Langage informatique décrivant la présentation des feuilles HTML et XML. 
+ <span class="sous-titres">Définition :</span> : Langage informatique décrivant la présentation des feuilles HTML et XML. 
 
 
 SASS (http://sass-lang.com/) : 
- Définition : Langage informatique de génération dynamique de feuilles de style. SassScript est un langage de script interprété en CSS, la nouvelle syntaxe, SCSS a un formalisme proche de CSS.
+ <span class="sous-titres">Définition :</span> : Langage informatique de génération dynamique de feuilles de style. SassScript est un langage de script interprété en CSS, la nouvelle syntaxe, SCSS a un formalisme proche de CSS.
 
 
 LESS (http://lesscss.org/ ) : 
- Définition : Langage informatique de génération dynamique de feuilles de style. Il a d’abord été écrit en Ruby mais les versions récentes sont en JavaScript.
+ <span class="sous-titres">Définition :</span> : Langage informatique de génération dynamique de feuilles de style. Il a d’abord été écrit en Ruby mais les versions récentes sont en JavaScript.
 LESS peut être compilé à la volée par le navigateur ou  par le serveur ou bien pré-compilé en un fichier CSS. LESS permet d’ajouter au CSS, entre autres, la gestion des variables et l’héritage.
 
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 Variables : On peut définir des variables afin de gagner en lisibilité et flexibilité. Exemple : @color: #4D926F
 
 
 BOOSTRAP (http://getbootstrap.com/ ) : 
- Définition : Framework dédié à la création de sites et d’applications web. Son utilisation permet d’avoir facilement une apparence uniforme et responsive sur tout le site.
+ <span class="sous-titres">Définition :</span> : Framework dédié à la création de sites et d’applications web. Son utilisation permet d’avoir facilement une apparence uniforme et responsive sur tout le site.
 
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 
 Grille :
 Responsive :
 
 
 JEE (http://www.siteofficiel.com) : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 Contrôleur
 
 SPRING (http://www.siteofficiel.com) : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 SpringBoot
 
 POSTGRESQL (http://www.siteofficiel.com) : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 Contrôleur
 
 
 
 NPM (http://npmjs.org/ ) :
-Définition : Le gestionnaire de paquets officiel de Node.JS.
+<span class="sous-titres">Définition :</span> : Le gestionnaire de paquets officiel de Node.JS.
 
 
 BOWER (https://bower.io/ ) :
-Définition : Gestionnaire de paquets optimisé pour le front-end.
+<span class="sous-titres">Définition :</span> : Gestionnaire de paquets optimisé pour le front-end.
 Installation : npm install –g bower (nécessite Node.JS, npm et Git)
 
 
 GRUNTJS (http://www.siteofficiel.com) :
-Définition : Automatiseur de tâches (task-runner)
+<span class="sous-titres">Définition :</span> : Automatiseur de tâches (task-runner)
 
 GULP (http://www.siteofficiel.com) :
-Définition : Automatiseur de tâches (task-runner)
+<span class="sous-titres">Définition :</span> : Automatiseur de tâches (task-runner)
 
 SVN (http://www.siteofficiel.com) :
-Définition : Logiciel de versionnage
+<span class="sous-titres">Définition :</span> : Logiciel de versionnage
 
 GIT (http://git-scm.com/ ) :
-Définition : Logiciel de versionnage. GitHub et BitBucket sont des solutions permettant d’utiliser un serveur Git de façon simpifiée.
+<span class="sous-titres">Définition :</span> : Logiciel de versionnage. GitHub et BitBucket sont des solutions permettant d’utiliser un serveur Git de façon simpifiée.
 
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 Git checkout :
 Git checkout :
 Git merge :
@@ -136,26 +171,26 @@ Git rebase :
 
 
 JUNIT (http://www.siteofficiel.com) :
-Définition : Tests unitaires
+<span class="sous-titres">Définition :</span> : Tests unitaires
 
 
 JASMINE (http://jasmine.github.io/2.0/introduction.html) :
-Définition : Framework permettant de faire des tests unitaires pour du code JavaScript
+<span class="sous-titres">Définition :</span> : Framework permettant de faire des tests unitaires pour du code JavaScript
 
 Installation :
 Npm install –g jasmine-core
 Npm install -g jasmine –save-dev
 
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 Runner : outil responsable de l’exécution des tests. Certains permettent de ne lancer qu’une seule catégorie de tests
 Reporter : affiche les résultats d’une série de tests
 Les tests sont écrits dans le fichier de spécification
 
 
 KARMA (http://www.siteofficiel.com) :
-Définition : Tests unitaires
+<span class="sous-titres">Définition :</span> : Tests unitaires
 
-Tutoriels : 
+<span class="sous-titres">Tutoriels :</span> : 
 http://atomrace.com/tester-son-application-angular-avec-karma-et-jasmine/
 
 Installation :
@@ -171,21 +206,21 @@ Karma start –log-level debug
 
 
 MAVEN (https://maven.apache.org/ ) :
-Définition : Outil de gestion et d’automatisation pour JAVA SE et JAVA EE. Maven permet de produire un logiciel à partir de ses sources en optimisant les tâches nécessaires.
+<span class="sous-titres">Définition :</span> : Outil de gestion et d’automatisation pour JAVA SE et JAVA EE. Maven permet de produire un logiciel à partir de ses sources en optimisant les tâches nécessaires.
 
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 POM.xml : POM signifie Project Object Model, c’est le fichier décrivant le projet, ses dépendances, ses modules ainsi que l’ordre à suivre pour sa production
 
 
 PROTRACTOR (http://www.siteofficiel.com) :
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 
 REST : 
-Définition : Representational State Transfer est un style d’architecture utilisé pour les applications Web.
+<span class="sous-titres">Définition :</span> : Representational State Transfer est un style d’architecture utilisé pour les applications Web.
  
-Tutoriels : 
+<span class="sous-titres">Tutoriels :</span> : 
 http://blog.octo.com/designer-une-api-rest/
 http://blog.pilotsystems.net/2012/septembre/les-api-rest
 http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
@@ -193,37 +228,39 @@ http://blog.nicolashachet.com/niveaux/confirme/larchitecture-rest-expliquee-en-5
 
 
 MOCK-UP : 
-Définition : Prototype d’interface utilisateur permettant de donner une idée du futur rendu. Pencil est un outil intéressant pour en produire.
+<span class="sous-titres">Définition :</span> : Prototype d’interface utilisateur permettant de donner une idée du futur rendu. Pencil est un outil intéressant pour en produire.
 
 
 NODE.JS (https://nodejs.org/): 
-Définition : Plate-forme logicielle (environnement permettant la gestion et/ou l’utilisation de services applicatifs) libre en JavaScript orientée vers les applications réseau. 
+<span class="sous-titres">Définition :</span> : Plate-forme logicielle (environnement permettant la gestion et/ou l’utilisation de services applicatifs) libre en JavaScript orientée vers les applications réseau. 
 Node.JS contient notamment un serveur http intégré permettant de faire tourner un serveur web sans Apache.
 
 
 SOAP (http://www.siteofficiel.com) : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 
 
 CORS (http://www.siteofficiel.com) : 
-Définition : Framework JavaScript
-Tutoriels :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
 https://spring.io/blog/2015/06/08/cors-support-in-spring-framework
-Notions importantes :
+<span class="sous-titres">Notions importantes :</span> :
 
 DESIGN PATTERNS : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 
 JSON : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
 
 API : 
-Définition : Framework JavaScript
-Tutoriels :
-Notions importantes :
+<span class="sous-titres">Définition :</span> : Framework JavaScript
+<span class="sous-titres">Tutoriels :</span> :
+<span class="sous-titres">Notions importantes :</span> :
+</body>
+</html>
