@@ -4,15 +4,54 @@ h1 {
 	
 }
 
-h2 {
+.front_h2 {
 	color : #E09100;
 	font-family: 'Josefin Sans';
 	font-variant: small-caps;
 
 }
 
-h3 {
+.front_h3 {
 	color : #D8E000;
+	font-family: 'Josefin Sans';	
+	
+}
+
+.back_h2 {
+	color : #1AC300;
+	font-family: 'Josefin Sans';
+	font-variant: small-caps;
+
+}
+
+.back_h3 {
+	color :#00E077;
+	font-family: 'Josefin Sans';	
+	
+}
+
+.utilitaires_h2 {
+	color : #00BBE0;
+	font-family: 'Josefin Sans';
+	font-variant: small-caps;
+
+}
+
+.utilitaires_h3 {
+	color : #4785FF;
+	font-family: 'Josefin Sans';	
+	
+}
+
+.autres_h2 {
+	color :#A020F0;
+	font-family: 'Josefin Sans';
+	font-variant: small-caps;
+
+}
+
+.autres_h3 {
+	color : #FA8BBE;
 	font-family: 'Josefin Sans';	
 	
 }
