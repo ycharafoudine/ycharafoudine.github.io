@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+      
+        <title>Front-End</title>
+
+    </head>
+<!--
+  faire un include en php !  
+-->
+  <body class="container" data-spy="scroll" data-target="#barrevert">
+<div id="barrevert" class="col-xs-3 col-sm-3 col-lg-3">
+	<nav class="nav nav-pills nav-stacked barrenav" data-spy="affix" >
+	  <li role="presentation" class="active"><a href="index.php">Home</a></li>
+	  <li role="presentation"><a href="front-end.php">Front-End</a></li>
+	  <li role="presentation"><a href="back-end.php">Back-End</a></li>
+	  <li role="presentation"><a href="utilitaires.php">Utilitaires</a></li>
+	  <li role="presentation"><a href="autres.php">Autres</a></li>
+	  <li role="presentation"><a href="bigdata.php">Big Data</a></li>
+	</nav>
+</div>
+<div class="col-xs-1 col-sm-1 col-lg-1">
+	</div>
+<div class="col-xs-8 col-sm-8 col-lg-8">
+<h2 class="front_h2">Big Data</h2>
+
+<div id="javascript"><h3 class="front_h3">TITRE</h3>
+	<p><span class="sous-titres">Définition :</span> Lorem ipsum dolor sic amet
+	<br/>
+	<span class="sous-titres">Tutoriels :</span>
+	<ul>
+		<li><a href = "#">http://example.com</a></li>
+	</ul>
+
+	<span class="sous-titres">Installation : </span>
+
+	</p>
+</div>
+
+</body>
+</html>

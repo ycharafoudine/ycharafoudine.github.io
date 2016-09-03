@@ -3,7 +3,8 @@
 
 Bienvenue chers étudiants du CCI de Tours ! ^^
 
-Pour éditer ce site et partager vos connaissances avec vos camarades, utilisez simplement de l'HTML.
-Ou bien du Markdown, pour ceux qui sont pressés ! :P https://openclassrooms.com/courses/redigez-en-markdown
+Ce site a été mis en place pour vous permettre de collaborer et partager vos définitions.
+Il n'a pas vocation à être exhaustif au niveau des définitions mais plutôt de donner un aperçu rapide de quelques technologies.
+
 
 Bon courage ! :D

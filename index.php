@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+      
+        <title>Glossaire</title>
+
+    </head>
+   <!--
+  faire un include en php !  
+-->
+  <body class="container" data-spy="scroll" data-target="#barrevert">
+<div id="barrevert" class="col-xs-3 col-sm-3 col-lg-3">
+	<nav class="nav nav-pills nav-stacked barrenav" data-spy="affix" >
+	  <li role="presentation" class="active"><a href="index.php">Home</a></li>
+	  <li role="presentation"><a href="front-end.php">Front-End</a></li>
+	  <li role="presentation"><a href="back-end.php">Back-End</a></li>
+	  <li role="presentation"><a href="utilitaires.php">Utilitaires</a></li>
+	  <li role="presentation"><a href="autres.php">Autres</a></li>
+	  <li role="presentation"><a href="bigdata.php">Big Data</a></li>
+	</nav>
+</div>
+<div class="col-xs-1 col-sm-1 col-lg-1">
+	</div>
+<div class="col-xs-8 col-sm-8 col-lg-8">
+
+<h1>GLOSSAIRE</h1>
+<p>
+Bienvenue sur la page du Glossaire collaboratif du Master CCI de Tours.
+<br /><br />
+
+Enjoy yourselves ! :D
+</p>
+</body>
+</html>
