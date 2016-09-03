@@ -58,10 +58,15 @@ h3 {
 	font-style : italic;
 }
 
+.attention {
+	font-style : italic;
+	color : #B61BA9;
+}
+
 body {
 font-family: Arial;
 }
 
 code {
-	
+	display : block;
 }
